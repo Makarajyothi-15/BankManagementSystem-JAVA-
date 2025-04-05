@@ -25,6 +25,6 @@
 mvn compile
 mvn exec:java -Dexec.mainClass="com.bank.BankApp"
 
-**ADMIN LOGIN**
+**ADMIN LOGIN:**
 Username: admin
 Password: 1234
