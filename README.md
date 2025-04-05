@@ -22,9 +22,9 @@
 - Maven installed 
 
 **Run the application:**
-mvn compile
-mvn exec:java -Dexec.mainClass="com.bank.BankApp"
+- mvn compile
+- mvn exec:java -Dexec.mainClass="com.bank.BankApp"
 
 **ADMIN LOGIN:**
-Username: admin
-Password: 1234
+- Username: admin
+- Password: 1234
