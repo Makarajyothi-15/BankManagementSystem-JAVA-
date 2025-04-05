@@ -1,6 +1,6 @@
 **Bank Management System**(Java + MongoDB):
-    This is a simple _console-based Bank Management_ System built using Java and MongoDB. It allows you to manage customer data — including insert, view, update, delete, and search functionalities.
-
+        This is a simple _console-based Bank Management_ System built using Java and MongoDB. It allows you to manage customer data — including insert, view, update, delete, and search functionalities.
+        
 **Features:**
 ->Insert New Customer
 ->View All Customers
