@@ -15,7 +15,7 @@ public class BankDatabase {
         return client;
     }
 
-    // Insert Data Function
+    
     public static void insertCustomer(String name, String accountNumber, double balance) {
         MongoClient client = connect();
         MongoDatabase db = client.getDatabase("BankDB"); // Database Name(BankDB)
@@ -70,7 +70,7 @@ public class BankDatabase {
         client.close();
     }
 
-    // Delete All Customers - for testing only!
+
     public static void deleteAllCustomers() {
         MongoClient client = connect();
         MongoDatabase db = client.getDatabase("BankDB");
@@ -122,7 +122,7 @@ public class BankDatabase {
     }
     
 
-    // Search Customer
+    
 public static void searchCustomer(String keyword) {
     MongoClient client = connect();
     MongoDatabase db = client.getDatabase("BankDB");
@@ -162,7 +162,7 @@ public static void searchCustomer(String keyword) {
     client.close();
 }
 
-// Deposit
+
 public static void depositAmount(String accountNumber, double amount) {
     MongoClient client = connect();
     MongoDatabase db = client.getDatabase("BankDB");
@@ -187,7 +187,7 @@ public static void depositAmount(String accountNumber, double amount) {
     client.close();
 }
 
-// Withdraw
+
 public static void withdrawAmount(String accountNumber, double amount) {
     MongoClient client = connect();
     MongoDatabase db = client.getDatabase("BankDB");
@@ -216,7 +216,7 @@ public static void withdrawAmount(String accountNumber, double amount) {
     client.close();
 }
 
-// Check Balance Function
+
 public static void checkBalance(String accountNumber) {
     MongoClient client = connect();
     MongoDatabase db = client.getDatabase("BankDB");
@@ -258,7 +258,7 @@ public static void checkBalance(String accountNumber) {
 
         viewCustomers();
 
-        deleteCustomer("12345678900"); // delete panna test
+        deleteCustomer("12345678900"); 
         viewCustomers();
 
         searchCustomer("jyo");
