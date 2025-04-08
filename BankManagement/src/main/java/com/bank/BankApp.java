@@ -6,7 +6,7 @@ public class BankApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Login
+        
         System.out.println("===== Admin Login =====");
         System.out.print(" Username: ");
         String username = scanner.nextLine();
@@ -23,7 +23,7 @@ public class BankApp {
 
         System.out.println("✅ Login successful! Welcome, " + username);
 
-        // Show menu if login is successful
+        
         int choice;
         do {
             System.out.println("\n======= BANK MANAGEMENT MENU =======");
